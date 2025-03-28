@@ -8,6 +8,6 @@ const citySchema = mongoose.Schema({
 	tempMax: Number,
 });
 
-const City = mongoose.model('cities', citySchema);
+const City = mongoose.model('City', citySchema);
 
 module.exports = City;
